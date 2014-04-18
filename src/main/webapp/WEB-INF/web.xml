@@ -49,13 +49,23 @@
     </listener>
 	
     
-       <servlet> 
+   <servlet> 
       <servlet-name>HelloWorldExample</servlet-name> 
       <servlet-class>HelloWorldExample</servlet-class> 
    </servlet> 
    <servlet-mapping> 
       <servlet-name>HelloWorldExample</servlet-name> 
-      <url-pattern>/HelloWorldExample</url-pattern> 
+      <url-pattern>/servlets/servlet/HelloWorldExample</url-pattern> 
    </servlet-mapping> 
+   
+   
+    <servlet> 
+      <servlet-name>RequestParamExample</servlet-name> 
+      <servlet-class>RequestParamExample</servlet-class> 
+   </servlet> 
+   <servlet-mapping> 
+      <servlet-name>RequestParamExample</servlet-name> 
+      <url-pattern>/servlets/servlet/RequestParamExample</url-pattern> 
+   </servlet-mapping>
 	
 </web-app>
