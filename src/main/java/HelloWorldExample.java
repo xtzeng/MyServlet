@@ -57,11 +57,11 @@ public class HelloWorldExample extends HttpServlet {
         // making these absolute till we work out the
         // addition of a PathInfo issue
 
-	    out.println("<a href=\"../servlets/helloworld.html\">");
-        out.println("<img src=\"../servlets/images/code.gif\" height=24 " +
+	    out.println("<a href=\"../helloworld.html\">");
+        out.println("<img src=\"../images/code.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"view code\"></a>");
-        out.println("<a href=\"../servlets/index.html\">");
-        out.println("<img src=\"../servlets/images/return.gif\" height=24 " +
+        out.println("<a href=\"../index.html\">");
+        out.println("<img src=\"../images/return.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"return\"></a>");
         out.println("<h1>" + title + "</h1>");
         out.println("</body>");
