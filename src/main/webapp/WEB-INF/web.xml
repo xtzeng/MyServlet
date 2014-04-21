@@ -67,5 +67,14 @@
       <servlet-name>RequestParamExample</servlet-name> 
       <url-pattern>/servlets/servlet/RequestParamExample</url-pattern> 
    </servlet-mapping>
+   
+    <servlet>
+      <servlet-name>servletToJsp</servlet-name>
+      <servlet-class>servletToJsp</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>servletToJsp</servlet-name>
+        <url-pattern>/servletToJsp</url-pattern>
+    </servlet-mapping>
 	
 </web-app>

@@ -29,7 +29,11 @@ import javax.servlet.http.*;
 public class HelloWorldExample extends HttpServlet {
 
 
-    public void doGet(HttpServletRequest request,
+    /**
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
         throws IOException, ServletException
     {
