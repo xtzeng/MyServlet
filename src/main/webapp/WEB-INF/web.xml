@@ -76,5 +76,52 @@
         <servlet-name>servletToJsp</servlet-name>
         <url-pattern>/servletToJsp</url-pattern>
     </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>SessionExample</servlet-name>
+        <servlet-class>SessionExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionExample</servlet-name>
+        <url-pattern>/servlets/servlet/SessionExample</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name>RequestInfoExample</servlet-name>
+        <servlet-class>RequestInfoExample</servlet-class>
+    </servlet>
+       <servlet-mapping>
+        <servlet-name>RequestInfoExample</servlet-name>
+        <url-pattern>/servlets/servlet/RequestInfoExample/*</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>RequestHeaderExample</servlet-name>
+        <servlet-class>RequestHeaderExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestHeaderExample</servlet-name>
+        <url-pattern>/servlets/servlet/RequestHeaderExample</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>CookieExample</servlet-name>
+        <servlet-class>CookieExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieExample</servlet-name>
+        <url-pattern>/servlets/servlet/CookieExample</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CompressionFilterTestServlet</servlet-name>
+        <servlet-class>compressionFilters.CompressionFilterTestServlet</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>CompressionFilterTestServlet</servlet-name>
+        <url-pattern>/CompressionTest</url-pattern>
+    </servlet-mapping>
+    
+    
 	
 </web-app>
